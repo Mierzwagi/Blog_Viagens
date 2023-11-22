@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Estilização NAVEGAÇÃO */
+
 .menu-topo {
     background-color: #2B392C;
     width: 100%;
@@ -11,8 +13,15 @@
 
 nav.navegacao {
     display: flex;
-    margin-right: 14%;
+    margin-right: 4%;
     align-items: center;
+}
+
+.logo img{
+    width: 86%;
+    margin: 8%;
+    /* margin-right: -27%; */
+    margin-left: -80%;
 }
 
 .menu {
@@ -30,49 +39,90 @@ nav.navegacao {
     color: white;
 }
 
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.pesquisa img{
+    margin-bottom: 2%;
+}
+
 .pesquisa input{
     border: none;
     /* border-radius: 10px; */
     padding: 10px;
     background-color: transparent;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px white;
+    margin-bottom: 2%;
 }
 
+/* Redes sociais */
 .midia {
     background-color: white;
     float: right;
-    margin-top: -6%;
+    margin-top: -5%;
     padding: 10px;
+    position: absolute;
+    /* float: right; */
+    margin-left: 95.8%;
 }
+
+/* Estiliza */
 .container-1{
     width: 100%;
-    
-
 }
 
-.images-back{
-    background-image: url(../img/images.svg);
-    min-height: 440px;
+.images-back {
+    display: flex;
+    gap: 20px;
+}
+
+.fundo-img1{
+    background-image: url(../img/img1.svg);
+    min-height: 480px;
     background-size: cover;
-    
+    width: 35%;
 }
 
-.test{
+.fundo-img2 {
+    background-image: url(../img/img2.svg);
+    min-height: 480px;
+    background-size: cover;
+    width: 35%;
+}
+
+.fundo-img3 {
+    background-image: url(../img/img3.svg);
+    min-height: 480px;
+    background-size: cover;
+    width: 35%;
+}
+
+.min-container{
     background-color: #2B392C;
-    height: 195px;
+    height: 240px;
     width: 46%;
     margin-top: 27%;
     position: absolute;
-    margin-left: 26%;
+    margin-left: 27%;
 }
 
 .container-2{
-    margin-top: 10%;
+    margin-top: 15%;
     width: 100%;
 }
+
 .container-2 h1{
     text-align: center;
-    margin: 5%;
+    margin-top: 5%;
+    font-size: 40px;
+}
+.hrPost{
+    width: 14%;
+    margin-bottom: 3%;
 }
 
 .post{
@@ -84,11 +134,32 @@ nav.navegacao {
 
 .post article{
     margin: 2%;
+    border: solid 2px black;
+}
+
+.artigos h3{
+    padding: 2%;
+    font-size: 26px;
+    margin-left: 3%;
+}
+
+.artigos hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 5%;
+}
+
+.descricao p{
+    padding: 5%;
+    margin-bottom: 5%;
 }
 
 .adm{
     display: flex;
     align-items: center;
+    padding: 2%;
 }
 
 .adm p{
@@ -97,7 +168,14 @@ nav.navegacao {
 .usuario{
     width: 50px;
     height: 50px;
-    background-color: aquamarine;
+    background-color: rgb(171, 175, 174);
     border-radius: 100%;
+}
+
+hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    border: none;
 }
 
